@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const Facts = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 4rem;
   max-width: 80%;
   margin: 10% auto 0;
@@ -10,8 +11,12 @@ const Facts = styled.div`
     text-align: left;
   }
 
-  @media (max-width: 430px) {
-    display: grid;
+  @media (max-width: 720px) {
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 1530px) {
+    font-size: 2rem;
   }
 `;
 

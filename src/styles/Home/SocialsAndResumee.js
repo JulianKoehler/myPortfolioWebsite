@@ -12,15 +12,28 @@ const SocialsAndResumee = styled.div`
     display: flex;
     align-items: center;
     gap: 1.4rem;
+
+    & .download-btn {
+      margin-left: 1.2rem;
+    }
   }
 
-  & button {
-    margin-left: 1.2rem;
+  & .icon-wrapper {
+    transition: transform 0.15s;
+    &:hover {
+      transform: scale(1.6) translateY(-0.4rem);
+    }
+
+    & a {
+      color: ${({ theme }) => theme.text.default};
+    }
   }
 
   & a {
     font-size: 3.5rem;
     color: black;
+    display: flex;
+    align-items: center;
   }
 
   & .wrapping-circle {
@@ -29,6 +42,11 @@ const SocialsAndResumee = styled.div`
     background-color: ${({ theme }) => theme.text.default};
     border-radius: 50%;
     position: relative;
+    transition: transform 0.15s;
+
+    &:hover {
+      transform: scale(1.6) translateY(-0.4rem);
+    }
 
     & a {
       font-size: 2.2rem;
@@ -38,10 +56,6 @@ const SocialsAndResumee = styled.div`
       left: 50%;
       transform: translate(-50%, -42%);
     }
-  }
-
-  & .icon-wrapper a {
-    color: ${({ theme }) => theme.text.default};
   }
 
   @media (max-width: 430px) {

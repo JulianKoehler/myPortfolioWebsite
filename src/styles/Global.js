@@ -54,6 +54,10 @@ const GlobalStyles = createGlobalStyle`
         color: ${({ theme }) => theme.h1};
         font-size: 4.2rem;
         font-weight: 800;
+
+        @media (max-width: 395px) {
+            font-size: 3.8rem;
+        }
     }
 
     h2 {
@@ -71,7 +75,6 @@ const GlobalStyles = createGlobalStyle`
         font-family: inherit;
         font-weight: 800;
         color: ${({ theme }) => theme.text.btn};;
-        font-size: 1.5rem;
         cursor: pointer;
         transition: all 0.35s;
 

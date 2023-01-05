@@ -27,9 +27,15 @@ const Wrapper = styled.header`
       font-size: 2rem;
       line-height: 3rem;
       transition: transform 0.3s;
+      white-space: nowrap;
 
       &:hover {
         transform: scale(1.2);
+      }
+
+      @media (max-width: 720px) {
+        font-size: 1.8rem;
+        margin-inline: 1rem;
       }
     }
   }

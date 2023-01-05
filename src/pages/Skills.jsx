@@ -11,6 +11,7 @@ const Skills = ({ colorTheme }) => {
   const skillBoxes = skills.map(skill => {
     return (
       <SkillBox
+        key={skill.name}
         colorTheme={colorTheme}
         name={skill.name}
         icon={skill.icon}

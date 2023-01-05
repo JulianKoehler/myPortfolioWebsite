@@ -33,9 +33,15 @@ const ContactForm = styled.form`
     resize: none;
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 900px) {
     max-width: 75%;
 
+    & input {
+      max-width: unset;
+    }
+  }
+
+  @media (max-width: 1305px) {
     & input {
       max-width: unset;
     }

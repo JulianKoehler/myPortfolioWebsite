@@ -14,6 +14,17 @@ const MobileBottomNavbar = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    & .inner-link-content {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      font-size: 2.5rem;
+
+      & p {
+        font-size: 1rem;
+      }
+    }
   }
 
   @media (max-width: 430px) {

@@ -10,6 +10,7 @@ const MyWork = () => {
   const projects = projectData.map(project => {
     return (
       <ProjectPreview
+        key={project.name}
         image={project.image}
         title={project.name}
         techStack={project.techStack}

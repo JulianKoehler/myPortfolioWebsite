@@ -9,20 +9,29 @@ const MyWorkPage = styled(motion.div)`
   min-height: 100vh;
 
   & .project-cards-container {
-    width: 90%;
+    display: grid;
+    max-width: 90%;
     margin-inline: auto;
     padding-top: 5%;
-    display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
-    @media (max-width: 430px) {
+    @media (max-width: 1500px) {
+      grid-template-columns: 1fr 1fr;
+      row-gap: 3rem;
+      width: 60%;
+    }
+
+    @media (max-width: 1100px) {
       grid-template-columns: 1fr;
       margin: 0 auto;
     }
   }
 
-  & p {
-    margin-top: 7%;
+  & p:last-child {
+    max-width: 80%;
+    margin: 5rem auto;
 
     & a {
       color: ${({ theme }) => theme.h1};

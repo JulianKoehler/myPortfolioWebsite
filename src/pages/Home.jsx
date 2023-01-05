@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+
+import cv from "../data/cv.pdf";
 import heroImage from "../assets/Bewerbungsfoto.jpg";
 import Aside from "../components/Navbar/Aside";
 import Hero from "../styles/Home/Hero";
@@ -40,7 +41,12 @@ const Home = () => {
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
             </div>
-            <button>Get my resumee</button>
+            <a
+              className="download-btn"
+              href={cv}
+              download="CV Julian Köhler">
+              <button>Get my resumee</button>
+            </a>
           </div>
         </SocialsAndResumee>
         <HeroImage src={heroImage} />

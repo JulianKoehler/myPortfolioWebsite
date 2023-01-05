@@ -15,6 +15,14 @@ const Greeting = styled.div`
     }
   }
 
+  @media (max-width: 750px) {
+    align-items: flex-start;
+
+    & h2 {
+      margin-right: 0;
+    }
+  }
+
   @media (max-width: 430px) {
     width: 100%;
     justify-content: center;
@@ -24,6 +32,7 @@ const Greeting = styled.div`
       font-size: 3.6rem;
     }
   }
+
   @media (max-width: 390px) {
     & h1,
     h2 {
