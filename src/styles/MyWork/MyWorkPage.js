@@ -10,18 +10,14 @@ const MyWorkPage = styled(motion.div)`
 
   & .project-cards-container {
     display: grid;
-    max-width: 90%;
+    width: 90%;
     margin-inline: auto;
     padding-top: 5%;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    @media (max-width: 1500px) {
-      grid-template-columns: 1fr 1fr;
-      row-gap: 3rem;
-      width: 60%;
-    }
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    width: 70%;
 
     @media (max-width: 1100px) {
       grid-template-columns: 1fr;

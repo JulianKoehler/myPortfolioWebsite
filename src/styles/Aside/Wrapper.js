@@ -11,8 +11,8 @@ const Wrapper = styled.aside`
     cursor: pointer;
   }
 
-  @media (max-width: 430px) {
-    margin-right: 3rem;
+  @media (max-width: 640px) {
+    display: none;
   }
 `;
 

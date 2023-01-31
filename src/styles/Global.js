@@ -82,6 +82,11 @@ const GlobalStyles = createGlobalStyle`
             background-color: ${({ theme }) => theme.btn};;
             color: var(--white);
         }
+
+        &:disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
     }
 
     a {

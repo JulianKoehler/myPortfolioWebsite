@@ -5,7 +5,8 @@ const ProjectCard = styled.div`
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
-  width: 28rem;
+  width: 48rem;
+  max-width: 90vw;
   height: 48rem;
   border-radius: 1.6rem;
   background-color: ${({ theme }) => theme.projectCard};
@@ -28,7 +29,7 @@ const ProjectCard = styled.div`
   h4,
   p {
     text-align: left;
-    margin: 1.6rem 1.6rem 0 1.6rem;
+    margin: 1.6rem 2rem 0 2rem;
   }
 
   & h4 {

@@ -15,7 +15,6 @@ const ContactPage = styled(motion.div)`
   & .copied-feedback {
     position: absolute;
     bottom: 3rem;
-    right: 50%;
     transform: translateX(50%);
     color: white;
     padding: 1rem;
@@ -33,7 +32,7 @@ const ContactPage = styled(motion.div)`
   & h4 {
     width: 73rem;
     text-align: left;
-    margin: 7% 0 10rem 25.3%;
+    margin: 7% 0 5rem 25.3%;
     max-width: 75%;
 
     & span {

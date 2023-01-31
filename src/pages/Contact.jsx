@@ -36,12 +36,12 @@ const Contact = () => {
       <Content>
         <h1>Contact</h1>
         <h4>
-          Get in touch with me via the form below or contact me directly via{" "}
-          <span
+          Let's have a chat. Feel free to leave me a message via the form below.
+          {/* <span
             className="email"
             onClick={copyEmailHandler}>
-            <div className={copyFeedbackClassNames}>Copied!</div>julkoehl@icloud.com
-          </span>
+            <div className={copyFeedbackClassNames}>Copied!</div>julian.koehler.business@gmail.com
+          </span> */}
         </h4>
         <Form />
       </Content>

@@ -21,8 +21,8 @@ const About = () => {
             <h4>I am burning for computers</h4>
             <p>
               since my childhood and fell in love with coding in July 2022. I found my passion in it and with
-              the help of online resources and by building my own projects, I could gain a decent level of
-              knowledge and skills in frontend web development.
+              the help of online resources and by coding projects on my own from scratch, I could gain a
+              decent level of knowledge and skills in frontend web development.
             </p>
           </div>
           <div className="aboutme-item-container">
@@ -30,22 +30,22 @@ const About = () => {
             <p>
               where I can create added value and from which I can learn a lot more than I could ever by
               building projects on my own. I am willing to challenge myself and to push my skills to the next
-              level.
+              level. I am 100% sure my passion and intrinsic motivation will help me on that way.
             </p>
           </div>
           <div className="aboutme-item-container">
-            <h4>I am a cat guy</h4>
+            <h4>I have a business background</h4>
             <p>
-              who likes to spend time with his two male cats Floki and Bounty. I also really enjoy being
-              outside in nature, going for a run or hitting the gym. I am keen about staying healthy and to
-              also push myself in terms of physical fitness.
+              due to my previous jobs. I know how to think economoically, analytical and customer centric. I
+              even dedicated my thesis to customer relationship management and its effect on customer
+              satisfactory.
             </p>
           </div>
           <div className="aboutme-item-container">
             <h4>It’s never too late</h4>
             <p>
-              to chase your dreams and do what you love. I never felt a drive like this when doing things. I
-              want to be part of the ever evolving Tech-industry to drive digitilization and solve problems.
+              to chase your dreams and do what you really love. I never felt a drive like this when doing
+              things. I want to be part of the solutions we find to the challenges we face.
             </p>
           </div>
         </Facts>
