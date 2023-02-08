@@ -21,8 +21,8 @@ const About = () => {
             <h4>I am burning for computers</h4>
             <p>
               since my childhood and fell in love with coding in June 2022. I found my passion in it and with
-              the help of online resources and by coding projects on my own from scratch, I could gain a
-              decent level of knowledge and skills in frontend web development.
+              the help of online resources and by coding projects on my own from scratch, I gained a decent
+              level of knowledge and skills in frontend web development.
             </p>
           </div>
           <div className="aboutme-item-container">
