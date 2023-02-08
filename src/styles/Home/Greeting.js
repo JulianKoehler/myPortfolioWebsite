@@ -6,6 +6,7 @@ const Greeting = styled.div`
   justify-content: flex-end;
   align-items: flex-end;
   grid-area: greeting;
+  margin-bottom: 5rem;
 
   & h2 {
     margin-right: 6.5rem;

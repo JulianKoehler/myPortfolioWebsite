@@ -1,5 +1,5 @@
 import { faHtml5, faCss3, faJsSquare, faReact, faSass, faGitAlt } from "@fortawesome/free-brands-svg-icons";
-import { SiTypescript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiTypescript, SiStyledcomponents, SiRedux, SiChakraui } from "react-icons/si";
 import { BsGearFill } from "react-icons/bs";
 
 const skills = [
@@ -37,6 +37,11 @@ const skills = [
     name: "SCSS",
     icon: faSass,
     isFaIcon: true,
+  },
+  {
+    name: "Chakra UI",
+    icon: SiChakraui,
+    isFaIcon: false,
   },
   {
     name: "Styled Components",

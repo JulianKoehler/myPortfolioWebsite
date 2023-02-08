@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 const SocialsAndResumee = styled.div`
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  margin-top: 5rem;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 5rem;
   grid-area: socials;
   transition: transform 0.5s;
 

@@ -20,13 +20,13 @@ const About = () => {
           <div className="aboutme-item-container">
             <h4>I am burning for computers</h4>
             <p>
-              since my childhood and fell in love with coding in July 2022. I found my passion in it and with
+              since my childhood and fell in love with coding in June 2022. I found my passion in it and with
               the help of online resources and by coding projects on my own from scratch, I could gain a
               decent level of knowledge and skills in frontend web development.
             </p>
           </div>
           <div className="aboutme-item-container">
-            <h4>I am looking for a team</h4>
+            <h4>Now I am looking for a team</h4>
             <p>
               where I can create added value and from which I can learn a lot more than I could ever by
               building projects on my own. I am willing to challenge myself and to push my skills to the next
@@ -34,18 +34,12 @@ const About = () => {
             </p>
           </div>
           <div className="aboutme-item-container">
-            <h4>I have a business background</h4>
-            <p>
-              due to my previous jobs. I know how to think economoically, analytical and customer centric. I
-              even dedicated my thesis to customer relationship management and its effect on customer
-              satisfactory.
-            </p>
-          </div>
-          <div className="aboutme-item-container">
             <h4>It’s never too late</h4>
             <p>
-              to chase your dreams and do what you really love. I never felt a drive like this when doing
-              things. I want to be part of the solutions we find to the challenges we face.
+              to chase your dreams and do what you really love. After my graduation from school I went for a
+              job in business administration at a big automotive supplier but soon my personal interests moved
+              to computers and I envied people that are working in this area. I dedicated my entire free time
+              to get to where I am now: Ready for my first job as a Front-End Developer.
             </p>
           </div>
         </Facts>

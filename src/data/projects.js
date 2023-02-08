@@ -6,7 +6,7 @@ import entertainify from "../assets/entertainify.png";
 
 const projects = [
   {
-    name: "Entertainify",
+    name: "Entertainment Web App",
     image: entertainify,
     techStack: ["Typescript", "React", "Styled Components", "Firebase REST"],
     description:

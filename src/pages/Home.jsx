@@ -11,6 +11,7 @@ import HomePage from "../styles/Home/HomePage";
 import Greeting from "../styles/Home/Greeting";
 import SocialsAndResumee from "../styles/Home/SocialsAndResumee";
 import HeroImage from "../styles/Home/HeroImage";
+import Badge from "../components/Hero/Badge";
 
 const Home = () => {
   return (
@@ -48,6 +49,7 @@ const Home = () => {
               <button>Get my resumee</button>
             </a>
           </div>
+          <Badge />
         </SocialsAndResumee>
         <HeroImage src={heroImage} />
       </Hero>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-const AboutPage = styled(motion.div)`
+const AboutPage = styled(motion.section)`
   display: flex;
   justify-content: center;
   width: 100%;
